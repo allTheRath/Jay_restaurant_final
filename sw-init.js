@@ -1,5 +1,5 @@
 if(navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js').then(() => {
+    navigator.serviceWorker.register('/Jay_restaurant_final/sw.js').then(() => {
         console.log('registration completed.');
     })
     .catch(() => {

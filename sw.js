@@ -3,7 +3,7 @@ let cacheItems = [
     'index.html',
     'restaurant.html',
     'css',
-    'data/',
+    'data',
     'img',
     'js',
     'sw-init.js',

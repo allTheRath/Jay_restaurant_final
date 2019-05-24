@@ -1,7 +1,13 @@
 {
-    "short_name": "Find food",
-    "name": "Restautant finder",
-    "start_url": "index.html",
+    "short_name": "Food finder",
+    "name": "Jay_restaurant_final",
+    "icons": [
+        {
+            "src": "img/logo.jpg",
+            "type": "image/jpg"
+        }
+    ],
+    "start_url": "/Jay_restaurant_final/",
     "background_color": "#3367D6",
     "display": "standalone",
     "scope": "/Jay_restaurant_final/",
