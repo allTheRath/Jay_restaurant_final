@@ -1,13 +1,13 @@
 let currentCache = 'service-worker-v2';
 let cacheItems = [
-    'index.html',
-    'restaurant.html',
+    '/index.html',
+    '/restaurant.html',
     '/css',
     '/data/',
     '/img',
     '/js',
-    'sw-init.js',
-    'sw.js'
+    '/sw-init.js',
+    '/sw.js'
 ];
 
 self.addEventListener('install', function(e) {
