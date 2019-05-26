@@ -101,9 +101,12 @@ main {
     
 }
 
-
 #restaurant-hours td {
     font-size: 18vw;
+}
+
+#maincontent {
+    overflow: hidden;
 }
 
 @media screen and (min-width: 300px){
