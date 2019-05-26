@@ -167,6 +167,9 @@ main {
         width: 100%;
     }
 
+    #restaurant-hours td {
+        font-size: 15px;
+    }
 
     nav {
         font-size: 22px;
