@@ -4,7 +4,7 @@ html, body {
 }
 
 .inside header {
-    width: 126vw;
+    width: 100vw;
     position: relative;
     overflow: hidden;
 }
@@ -33,7 +33,7 @@ html, body {
 }
 
 #breadcrumb {
-    width: 126vw;
+    width: 100vw;
     font-size: xx-large;
     box-sizing: border-box;
     text-align: -webkit-right;
