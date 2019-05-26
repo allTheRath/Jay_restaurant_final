@@ -3,6 +3,14 @@ html, body {
     width: 100vw;
 }
 
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+}
+
 .inside header {
     width: 100vw;
     position: relative;
