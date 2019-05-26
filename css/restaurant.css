@@ -102,7 +102,7 @@ main {
 }
 
 #restaurant-hours td {
-    font-size: 18vw;
+    font-size: 1.2vw;
 }
 
 #maincontent {
@@ -163,7 +163,11 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-   
+    .inside #map-container {
+        width: 100%;
+    }
+
+
     nav {
         font-size: 22px;
     }
