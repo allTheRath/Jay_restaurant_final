@@ -1,0 +1,167 @@
+html, body {
+    text-align: center;
+    width: 100vw;
+}
+
+.inside header {
+    width: 126vw;
+    position: relative;
+    overflow: hidden;
+}
+
+#map-container {
+    padding: 2px;
+    border: #f3f3f3;
+    overflow: hidden;
+}
+
+.inside #map-container {
+    position: relative;
+    width: 126vw;
+    top: 0px;
+    background-color: #eeeeee;
+}
+
+.inside #map {
+    background-color: #eeeeee;
+}
+
+#restaurant-container, #reviews-container {
+    width: 100vw;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+#breadcrumb {
+    width: 126vw;
+    font-size: xx-large;
+    box-sizing: border-box;
+    text-align: -webkit-right;
+}
+
+#breadcrumb li {
+    font-size: 49%;
+}
+
+.leaflet-top .leaflet-control {
+    margin-top: 97px;
+}
+
+#restaurant-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+.inside #footer {
+    width: 100vw;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+main {
+    width: 100vw;
+}
+
+#restaurant-container {
+    width: 100vw;
+}
+
+#restaurant-name {
+    font-size: 16pt;
+}
+
+#restaurant-img {
+    width: 100%;
+}
+
+#restaurant-cuisine {
+    width: 100%;
+}
+
+#reviews-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    
+}
+
+
+#restaurant-hours td {
+    font-size: 73%;
+}
+
+@media screen and (min-width: 300px){
+    .leaflet-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        font-size: 12px;
+        text-align: right;
+    }
+
+    #reviews-list {
+        font-size: 12%;
+    }
+    
+    #breadcrumb li {
+        font-size: 60%;
+    }
+
+    #reviews-list li {
+        font-size: 70px;
+    }
+
+
+}
+
+@media screen and (min-width: 500px){
+    nav {
+        text-align: center;
+    }
+
+    nav h1 a {
+        font-size: 31px;
+    }
+
+    #restaurant-hours td {
+        font-size: 113%;
+    }
+    
+    #reviews-list li {
+        font-size: 122px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+   
+    nav {
+        font-size: 22px;
+    }
+    
+    nav h1 a {
+        font-size: 36px;
+    }
+
+    #reviews-list li {
+        font-size: 142px;
+        margin-right: 3%;
+    }
+
+
+    #reviews-list {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: space-between;
+    }
+}

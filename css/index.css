@@ -1,0 +1,114 @@
+@media screen and (min-width: 300px){
+    .main-flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+    }
+
+    #restaurants-list li {
+        width: 260px;
+    }
+
+    #restaurants-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+    }
+
+    .filter-options {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    #cuisines-select {
+        width: 140px;
+        font-size: 9pt;
+    }
+
+    #neighborhoods-select {
+        width: 140px;
+        font-size: 9pt;
+    }
+
+    #footer {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (min-width: 500px){
+    .main-flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: space-between;
+    }
+    
+    #restaurants-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+    }
+
+    .filter-options {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        box-sizing: border-box;
+    }
+    
+    #restaurants-list li {
+        width: 660px;
+    }
+
+    #cuisines-select {
+        width: 180px;
+        font-size: 11pt;
+    }
+
+    #neighborhoods-select {
+        width: 180px;
+        font-size: 11pt;
+    }
+
+    #footer {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #footer {
+        font-size: 14px;
+    }
+
+    .filter-options {
+        justify-content: flex-start;
+    }
+    
+    #restaurants-list li {
+        width: 300px;
+    }
+
+    #cuisines-select {
+        width: 180px;
+        font-size: 11pt;
+    }
+
+    #neighborhoods-select {
+        width: 180px;
+        font-size: 11pt;
+    }
+
+    #footer {
+        font-size: 16px;
+    }
+
+}
