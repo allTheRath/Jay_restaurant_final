@@ -115,7 +115,7 @@ main {
 
 @media screen and (min-width: 300px){
     .inside #map-container {
-        height: 200px;
+        height: 275px;
     }
 
     .leaflet-container {
