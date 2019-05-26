@@ -17,13 +17,16 @@ html, body {
 
 .inside #map-container {
     position: relative;
-    width: 126vw;
+    width: 50%;
+    height: 400px;
     top: 0px;
     background-color: #eeeeee;
 }
 
 .inside #map {
     background-color: #eeeeee;
+    width: 100vw;
+    height: 500px;
 }
 
 #restaurant-container, #reviews-container {
@@ -58,6 +61,11 @@ html, body {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#footer {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 body {
@@ -95,10 +103,14 @@ main {
 
 
 #restaurant-hours td {
-    font-size: 73%;
+    font-size: 18vw;
 }
 
 @media screen and (min-width: 300px){
+    .inside #map-container {
+        height: 200px;
+    }
+
     .leaflet-container {
         display: flex;
         flex-wrap: nowrap;
@@ -125,6 +137,10 @@ main {
 }
 
 @media screen and (min-width: 500px){
+    .inside #map-container {
+        height: 300px;
+    }
+
     nav {
         text-align: center;
     }
