@@ -3,10 +3,6 @@ html, body {
     width: 100vw;
 }
 
-body {
-    align-content: center;
-}
-
 .inside header {
     width: 100vw;
     position: relative;
