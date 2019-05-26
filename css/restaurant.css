@@ -4,11 +4,7 @@ html, body {
 }
 
 body {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    margin: auto;
+    align-content: center;
 }
 
 .inside header {
@@ -174,7 +170,7 @@ main {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 798px) {
 
     #restaurant-container #restaurant-hours tr {
         font-size: 15px;
